@@ -26,6 +26,12 @@ void gaussElim3x4mat( float mat[3][4] ) {
 	subtract_x1 ( mat ) ;
 	print3x4mat ( mat ) ;
 
+	// TODO
+	printf("\nsubtract_x2 - TODO");
+	//subtract_x1 ( mat ) ;
+	print3x4mat ( mat ) ;
+
+
 	printf("\nbackSubSolve\n");
 	backSubSolve( mat ) ;
 
